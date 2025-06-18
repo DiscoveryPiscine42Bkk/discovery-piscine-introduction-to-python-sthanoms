@@ -6,11 +6,11 @@ def main():
     num_parameters = len(parameters)
 
     if num_parameters == 0:
-        print("none$")
+        print("none")
     else:
-        print(f"parameters: {num_parameters}$")
+        print(f"parameters: {num_parameters}")
         for param in parameters:
-            print(f"{param}: {len(param)}$")
+            print(f"{param}: {len(param)}")
 
 if __name__ == "__main__":
-    main()      
+    main()     
